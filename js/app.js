@@ -5,7 +5,7 @@
   "use strict";
 
   var GAMES = [];        // canonical records (each gets an _id + _enriched)
-  var view = "grid";     // "grid" | "table"
+  var view = "table";    // "grid" | "table"
   var enrichPending = 0;
 
   var el = {
